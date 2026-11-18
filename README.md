@@ -4,6 +4,10 @@ Apka do ogarniania wyjazdów w kilka osób. Wzięło się to stąd, że każdy n
 
 W jednym miejscu jest lista uczestników, kalendarz dostępności (każdy zaznacza, kiedy może), transport (kto jedzie jakim autem i ile wyjdzie paliwo), noclegi, wspólne koszty z rozliczeniem i checklisty. Wszystko siedzi na jednej stronie wyjazdu, a edycja jest w okienkach, bez przeładowywania strony.
 
+![Strona wyjazdu](img/wyjazd.png)
+
+![Koszty i rozliczenie](img/koszty.png)
+
 ## jak to się zmieniało
 
 Pierwszą wersję napisałem w PHP i MariaDB na własnym, prostym MVC: router, kontrolery, modele na mysqli. Stała u mnie na Synology. Kawałki są w folderze `php/`.
