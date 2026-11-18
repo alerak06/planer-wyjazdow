@@ -8,6 +8,25 @@ W jednym miejscu jest lista uczestników, kalendarz dostępności (każdy zaznac
 
 ![Koszty i rozliczenie](img/koszty.png)
 
+## funkcje
+
+- przegląd wyjazdu - termin, odliczanie do wyjazdu, a w trakcie wyjazdu karta z tym, co dzieje się teraz
+- udostępnianie - jeden link do wyjazdu, kto go dostanie, może dołączyć
+- grupa - lista uczestników z awatarami i rolami (organizator, uczestnik)
+- kalendarz dostępności - każdy zaznacza, kiedy może, a kiedy nie, a apka pokazuje najlepsze terminy
+- plan wyjazdu - oś czasu z punktami dzień po dniu
+- transport - auto, samolot albo pociąg, kto jedzie którym autem, dołączanie do auta i wypisywanie się
+- paliwo - koszt paliwa liczony z trasy, który potem można podmienić na prawdziwy
+- noclegi - kilka propozycji i potwierdzanie tej wybranej
+- miejsca - lista miejsc do zobaczenia razem z mapą
+- aktywności - ankiety, na co idziemy, każdy głosuje
+- koszty - wydatki z podziałem na osoby, różne waluty z przeliczaniem, wykres wydatków
+- rozliczenie - bilans każdej osoby i lista przelewów, kto komu ile oddaje
+- checklista - rzeczy do zabrania i do załatwienia, ze statusami
+- pliki - bilety, rezerwacje i inne dokumenty w jednym miejscu
+- własny układ - sekcje można ukryć albo poprzestawiać
+- konto i profil ze zdjęciem, apkę da się dodać do ekranu telefonu
+
 ## jak to się zmieniało
 
 Pierwszą wersję napisałem w PHP i MariaDB na własnym, prostym MVC: router, kontrolery, modele na mysqli. Stała u mnie na Synology. Kawałki są w folderze `php/`.
